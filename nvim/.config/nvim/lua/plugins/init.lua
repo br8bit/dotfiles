@@ -16,7 +16,6 @@ return {
     lazy = false,
     opts = {},
   },
-  -- These are some examples, uncomment them if you want to see them work!
   {
     "neovim/nvim-lspconfig",
     config = function()
@@ -41,5 +40,9 @@ return {
     config = function()
       require("todo-comments").setup()
     end,
+  },
+  {
+    "Exafunction/codeium.vim",
+    event = "BufEnter",
   },
 }

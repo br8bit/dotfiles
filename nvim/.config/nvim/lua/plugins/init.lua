@@ -48,7 +48,7 @@ return {
   {
     "mrcjkb/rustaceanvim",
     version = "^5", -- Recommended
-    lazy = false, -- This plugin is already lazy
+    -- lazy = false, -- this causes an error with codelldb
     ft = "rust",
     ["rust-analyzer"] = {
       cargo = {
@@ -61,7 +61,6 @@ return {
   },
   {
     "mfussenegger/nvim-dap",
-    lazy = false,
     config = require "configs.dap",
   },
   {
@@ -69,13 +68,6 @@ return {
     dependencies = { "mfussenegger/nvim-dap", "nvim-neotest/nvim-nio" },
     config = function()
       require("dapui").setup()
-    end,
-  },
-  {
-    "rust-lang/rust.vim",
-    ft = "rust",
-    init = function()
-      vim.g.rustfmt_autosave = 1
     end,
   },
   {

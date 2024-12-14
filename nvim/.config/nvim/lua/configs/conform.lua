@@ -8,6 +8,11 @@ local options = {
     javascriptreact = { "prettier" },
     typescriptreact = { "prettier" },
     solidity = { "prettier" },
+    json = { "prettier" },
+    yaml = { "prettier" },
+    markdown = { "prettier" },
+    dockerfile = { "prettier" },
+    rust = { "rustfmt" },
   },
 
   format_on_save = {

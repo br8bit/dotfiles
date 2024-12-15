@@ -10,6 +10,7 @@ local options = {
     "ts-ls",
     "docker-compose-language-service",
     "dockerls",
+    "rust-analyzer",
     "codelldb",
     "nvim-dap",
     "nvim-dap-ui",

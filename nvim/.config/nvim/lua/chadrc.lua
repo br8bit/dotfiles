@@ -13,13 +13,14 @@ M.base46 = {
   },
   transparency = true,
 
-  hl_override = {
-    Comment = { italic = true },
-    ["@comment"] = { italic = true },
-    -- Visual = {
-    --   bg = "light_grey",
-    -- },
-  },
+  -- hl_override = {
+  --   Comment = { italic = true },
+  --   ["@comment"] = { italic = true },
+  --   healthSuccess = { fg = "green" },
+  -- Visual = {
+  --   bg = "light_grey",
+  -- },
+  -- },
 }
 
 return M

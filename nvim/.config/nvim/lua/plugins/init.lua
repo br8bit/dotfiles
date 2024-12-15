@@ -48,7 +48,7 @@ return {
   {
     "mrcjkb/rustaceanvim",
     version = "^5", -- Recommended
-    -- lazy = false, -- this causes an error with codelldb
+    lazy = false,
     ft = "rust",
     ["rust-analyzer"] = {
       cargo = {

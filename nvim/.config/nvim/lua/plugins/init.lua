@@ -49,6 +49,7 @@ return {
     "mrcjkb/rustaceanvim",
     version = "^5", -- Recommended
     lazy = false,
+    dependencies = { "williamboman/mason.nvim", "neovim/nvim-lspconfig" },
     ft = "rust",
     ["rust-analyzer"] = {
       cargo = {

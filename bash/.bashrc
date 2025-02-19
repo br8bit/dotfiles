@@ -465,3 +465,6 @@ unset bash_prompt
 
 ### EOF ###
 . "$HOME/.cargo/env"
+
+# solana cli
+export PATH="/home/em/.local/share/solana/install/active_release/bin:$PATH"

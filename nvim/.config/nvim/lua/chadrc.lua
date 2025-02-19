@@ -11,7 +11,7 @@ M.base46 = {
     "sweetpastel",
     "one_light",
   },
-  transparency = true,
+  -- transparency = true,
 
   -- hl_override = {
   --   Comment = { italic = true },
